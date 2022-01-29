@@ -1,0 +1,39 @@
+header{
+    background-color:#E2C2B9;
+    color:#F0ECE3;
+    font-family: 'Sacramento', cursive;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Dongle', sans-serif;
+    color:#766161;
+}
+a.photo{
+    transform: padding 0.5s;
+}
+a.photo:hover{
+    padding: 10px;
+}
+main{
+    background-color: white;
+    padding:16px;
+}
+.comments{
+    font-size: 1.5rem;
+}
+.finstagram-post{
+    margin-bottom:48px;
+}
+.finstagram-post .user-info img{
+    border-radius: 50%;
+}
+.personal-comment{
+    color:#BBBBBB;
+}
+.actions{
+    font-size:1.3rem;
+}
+.comment-count {
+    font-size:1.3rem;
+}
+
