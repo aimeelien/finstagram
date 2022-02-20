@@ -1,3 +1,15 @@
+<header>
+  <h1>Finstagram</h1>
+  <div class="login-info">
+    <% if current_user %>
+      <%= current_user.username %>
+      <a class="sign" href = "/logout"> Logout </a>
+    <% else %>
+      <a class="sign" href = "/login">Login </a>
+      <a class="sign" href = "/signup">Signup </a>
+    <% end %>
+  </div>
+</header>
 <main role="main">
    <% @finstagram_posts.each do |finstagram_post| %>
     <article class="finstagram-post">

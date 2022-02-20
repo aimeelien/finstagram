@@ -1,8 +1,11 @@
-header{
-    background-color:#E2C2B9;
-    color:#F0ECE3;
+header {
+   background-color:#E2C2B9;
+    color:#F0ECE3; 
     font-family: 'Sacramento', cursive;
 }
+
+
+
 body{
     background-color: whitesmoke;
     font-family: 'Dongle', sans-serif;
@@ -34,6 +37,10 @@ main{
     font-size:1.3rem;
 }
 .comment-count {
-    font-size:1.3rem;
+    font-size:1.5rem;
 }
-
+.sign {
+    font-size: 1 rem;
+    color: #BF9270;
+    font-family: 'Nunito', sans-serif;
+}
