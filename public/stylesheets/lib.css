@@ -1,10 +1,6 @@
 * {
   box-sizing: border-box;
 }
-a {
-  color: #8da7b8;
-  text-decoration: none;
-}
 body, input {
   color: #244751;
   font-family: 'Roboto Condensed', sans-serif;

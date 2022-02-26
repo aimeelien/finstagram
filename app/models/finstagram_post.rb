@@ -1,9 +1,7 @@
 class FinstagramPost < ActiveRecord::Base
-
     belongs_to :user
     has_many :comments
     has_many :likes
-
     validates_presence_of :user
     validates :photo_url, :user, presence: true
 
@@ -17,6 +15,7 @@ class FinstagramPost < ActiveRecord::Base
           "#{time_ago_in_minutes.to_i} minutes ago"
         end
     end
+    
     def like_count
         self.likes.size
     end

@@ -1,11 +1,15 @@
-header {
-    background-color:#E2C2B9;
-    color:#F0ECE3; 
+header{
+    background-color: #E2C2B9;
+    color: #F0ECE3; 
     font-family: 'Sacramento', cursive;
 }
+a {
+    color: #8da7b8;
+    text-decoration: none;
+  }
 body{
     background-color: whitesmoke;
-    color:#766161;
+    color: #766161;
     font-family: 'Dongle', sans-serif;
     font-size: 1.3rem;
 }
@@ -17,27 +21,27 @@ a.photo:hover{
 }
 main{
     background-color: white;
-    padding:16px;
+    padding: 16px;
 }
 .actions{
-    font-size:1.3rem;
+    font-size: 1.3rem;
 }
 .comments{
     font-size: 1.5rem;
 }
-.comment-count {
-    font-size:1.3rem;
+.comment-count{
+    font-size: 1.3rem;
 }
 .finstagram-post{
-    margin-bottom:48px;
+    margin-bottom: 48px;
 }
 .finstagram-post .user-info img{
     border-radius: 50%;
 }
 .personal-comment{
-    color:#BBBBBB;
+    color: #BBBBBB;
 }
-.sign {
+.sign{
     color: #BF9270;
     font-size: 1.2 rem;
     font-family: 'Nunito', sans-serif;
