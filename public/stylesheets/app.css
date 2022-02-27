@@ -3,10 +3,11 @@ header{
     color: #F0ECE3; 
     font-family: 'Sacramento', cursive;
 }
-a {
-    color: #8da7b8;
-    text-decoration: none;
-  }
+a{
+    color: #BF9270;
+    font-size: 1.2 rem;
+    padding-left: 5px;
+}
 body{
     background-color: whitesmoke;
     color: #766161;
@@ -19,9 +20,19 @@ a.photo{
 a.photo:hover{
     padding: 10px;
 }
+a.sign{
+    text-decoration: none;
+}
 main{
     background-color: white;
     padding: 16px;
+}
+p{
+    margin: 0 auto;
+}
+.header_fin{
+    color: #8da7b8;
+    text-decoration: none;
 }
 .actions{
     font-size: 1.3rem;
@@ -42,8 +53,15 @@ main{
     color: #BBBBBB;
 }
 .sign{
-    color: #BF9270;
-    font-size: 1.2 rem;
-    font-family: 'Nunito', sans-serif;
-    padding-left: 5px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.5 rem;
+}
+.actions button.user-like{
+    border-style: none;
+}
+.button{
+    border-style: none;
+}
+a.button{
+    border-style: solid;
 }

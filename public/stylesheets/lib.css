@@ -27,14 +27,15 @@ header {
 }
 header > .login-info {
   margin-left: auto;
+  font-family: 'Dongle', sans-serif;
+  font-size: 1.7rem;
 }
 .actions {
   display: flex;
   align-items: baseline;
 }
 .actions button.user-like {
-  color: #FF2600;
-  border-color: #FF2600;
+  color: #464E2E;
 }
 .actions .comment-count {
   margin-left: auto;
@@ -53,7 +54,7 @@ header > .login-info {
   list-style-type: none;
 }
 .form-group {
-  margin-bottom: 1em;
+  margin-bottom: 0;
   padding-left: 50px;
 }
 .finstagram-post > * {
@@ -61,17 +62,20 @@ header > .login-info {
 }
 .new-comment input[type="text"] {
   width: 100%;
+  border-style: none;
 }
 .new-finstagram-post {
   text-align: center;
   margin-bottom: 2em;
 }
 .new-finstagram-post > .button {
+  color: #8da7b8;
   display: inline-block;
-  padding: 1em;
+  padding: 10px;
   width: 100%;
   border-radius: 4px;
   box-sizing: border-box;
+  text-decoration: none;
 }
 .user-info {
   display: flex;
